@@ -1,0 +1,42 @@
+{
+  "ownerlogin": ".",
+	"adminlogin": ".",
+	"modlogin": ".",
+	"maxConnectionsPerIp": 42,
+	"maxConnections": 9007199254740991,
+	"antiProxy": {
+		"enabled": false,
+		"key": "",
+		"vpnCheck": false,
+		"limit": 1000
+	},
+	"port": 8000,
+	"maxNickLength": 50,
+	"messages": {
+		"unbanMessage": "If you were banned falsely, then too bad",
+		"closeMsg": "Server is restarting...",
+		"defaultBanReason": "You were banned. No reason given."
+	},
+	"bucket": {
+		"pixel": {
+			"none": [0, 1],
+			"user": [50, 2],
+			"mod": [50, 1],
+			"admin": [32, 0],
+      "owner": [500, 0]
+		},
+		"chat": {
+			"none": [4, 6],
+			"user": [4, 6],
+			"mod": [32, 0],
+			"admin": [32, 0],
+      "owner": [1000, 0]
+		}
+	},
+	"captcha": {
+		"security": 0,
+		"serverKey": "",
+		"clientSideVerificationKey": "CaptchA",
+		"bypassCode": ""
+	}
+}
