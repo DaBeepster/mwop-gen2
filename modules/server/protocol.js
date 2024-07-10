@@ -12,7 +12,7 @@ var protocol = {
 	},
 	client: {
 		rankVerification: 1,
-		//captcha: 6,
+		captcha: 6,
 		requestChunk: 8,
 		protectChunk: 10,
 		setPixel: 11,

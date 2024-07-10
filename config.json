@@ -5,15 +5,15 @@
 	"maxConnectionsPerIp": 42,
 	"maxConnections": 9007199254740991,
 	"antiProxy": {
-		"enabled": false,
-		"key": "",
+		"enabled": true,
+		"key": "skibidi",
 		"vpnCheck": false,
 		"limit": 1000
 	},
 	"port": 8000,
 	"maxNickLength": 50,
 	"messages": {
-		"unbanMessage": "If you were banned falsely, then too bad",
+		"unbanMessage": "If you were banned falsely, womp womp.",
 		"closeMsg": "Server is restarting...",
 		"defaultBanReason": "You were banned. No reason given."
 	},
@@ -34,8 +34,8 @@
 		}
 	},
 	"captcha": {
-		"security": 0,
-		"serverKey": "",
+		"security": 1,
+		"serverKey": "6LckGA0qAAAAAM8K0eGD5QSE9SDNTEAoI0BYlLmX",
 		"clientSideVerificationKey": "CaptchA",
 		"bypassCode": ""
 	}
